@@ -274,12 +274,12 @@ import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.DwDoyBw8.js";const g
 <span class="line"><span>.env.production</span></span>
 <span class="line"><span>.env.test</span></span></code></pre></div><p>文件内容</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span># 变量必须以 VITE_ 为前缀才能暴露给外部读取</span></span>
 <span class="line"><span>NODE_ENV = &#39;development&#39;</span></span>
-<span class="line"><span>VITE_APP_TITLE = &#39;刀刀甄选&#39;</span></span>
+<span class="line"><span>VITE_APP_TITLE = &#39;tudumpling甄选&#39;</span></span>
 <span class="line"><span>VITE_APP_BASE_API = &#39;/dev-api&#39;</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>NODE_ENV = &#39;production&#39;</span></span>
-<span class="line"><span>VITE_APP_TITLE = &#39;刀刀甄选&#39;</span></span>
+<span class="line"><span>VITE_APP_TITLE = &#39;tudumpling甄选&#39;</span></span>
 <span class="line"><span>VITE_APP_BASE_API = &#39;/prod-api&#39;</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span># 变量必须以 VITE_ 为前缀才能暴露给外部读取</span></span>
 <span class="line"><span>NODE_ENV = &#39;test&#39;</span></span>
-<span class="line"><span>VITE_APP_TITLE = &#39;刀刀甄选&#39;</span></span>
+<span class="line"><span>VITE_APP_TITLE = &#39;tudumpling甄选&#39;</span></span>
 <span class="line"><span>VITE_APP_BASE_API = &#39;/test-api&#39;</span></span></code></pre></div><p>配置运行命令：<code>package.json</code></p><div class="language-json vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;scripts&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    &quot;dev&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;vite --open&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    &quot;build:test&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;vue-tsc &amp;&amp; vite build --mode test&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
